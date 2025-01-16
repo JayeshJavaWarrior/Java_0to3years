@@ -16,7 +16,7 @@ public class Flatmaps {
 
 		courses.stream().flatMap(s -> s.stream()).forEach(s -> System.out.println(s));
 
-		System.out.println("ashok sir startsnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn");
+		System.out.println("WithAnotherMethod");
 
 		Stream<String> fm = courses.stream().flatMap(s -> s.stream());
 		fm.forEach(s -> System.out.println(s));
